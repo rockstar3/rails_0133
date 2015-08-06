@@ -22,4 +22,4 @@ test:
 production:
   adapter: postgresql
   database: prelaunchr
-  host: localhost
+  
