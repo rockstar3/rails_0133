@@ -43,6 +43,8 @@ module Prelaunchr
     config.active_support.escape_html_entities_in_json = true
 
     config.assets.debug = false
+    config.assets.paths << Rails.root.join("app", "assets", "fonts")
+    config.assets.precompile << /\.(?:svg|eot|woff|ttf)$/
 
     # Use SQL instead of Active Record's schema dumper when creating the database.
     # This is necessary if your schema can't be completely dumped by the schema dumper,
@@ -60,6 +62,7 @@ module Prelaunchr
 
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
+
 
     config.ended = false
   end
