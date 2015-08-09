@@ -31,13 +31,13 @@ working_directory "/home/nomessdr/public_html/prelaunch/src"
 
 # Unicorn PID file location
 # pid "/path/to/pids/unicorn.pid"
-pid "/home/nomessdr/public_html/prelaunch/src/shared/pids/unicorn.pid"
+pid "/home/nomessdr/public_html/prelaunch/src/pids/unicorn.pid"
 
 # Path to logs
 # stderr_path "/path/to/log/unicorn.log"
 # stdout_path "/path/to/log/unicorn.log"
-# stderr_path "/var/www/prelaunch/log/unicorn.log"
-# stdout_path "/var/www/prelaunch/log/unicorn.log"
+stderr_path "/home/nomessdr/public_html/prelaunch/src/log/unicorn.log"
+stdout_path "/home/nomessdr/public_html/prelaunch/src/log/unicorn.log"
 
 # Unicorn socket
 listen "/tmp/unicorn.prelaunch.sock"
