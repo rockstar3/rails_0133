@@ -23,5 +23,5 @@ production:
   adapter: postgresql
   database: prelaunchr_prod
   username: postgres
-  password: 
+  password: pa33w0rd
   
